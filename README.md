@@ -42,6 +42,7 @@ npx playwright test
 npx playwright test --ui
 
 # View HTML test report
+```
 npx playwright show-report
 ```
 
