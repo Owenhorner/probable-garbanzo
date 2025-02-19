@@ -3,18 +3,8 @@
 ## Project Context
 - Testing framework: Playwright
 - Target website: https://the-internet.herokuapp.com/
-- Node.js environment with TypeScript
+- Node.js 23 environment with TypeScript
 - DevContainer enabled project
-
-## Additional Project Files
-```typescript
-├── playwright.config.ts     // Playwright configuration
-├── package.json            // Project dependencies
-├── tsconfig.json          // TypeScript configuration
-├── .env                   // Environment variables
-├── .gitignore
-└── README.md             // Project documentation
-```
 
 ## Best Practices for File Organization
 - Group related tests in feature-specific directories
