@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        browser: [chromium, firefox]
+        browser: [chromium, firefox] # TODO: Add webkit, had flakiness issues with it
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

@@ -3,6 +3,7 @@
 ### Directory Structure
 ```bash
 prompts/
+├── documents/         # Add documents here to enhance prompts
 ├── refactoring/       # Prompts for code refactoring
 ├── testing/           # Prompts for test creation
 └── features/          # Prompts for feature implementation
