@@ -7,4 +7,12 @@ module.exports = defineConfig({
     browserName: 'chromium',
     headless: true,
   },
+  reporter: [
+    ['list'],
+    ['html', { 
+      open: 'never',
+      outputFolder: 'playwright-report'
+    }],
+    ['json', { outputFile: 'test-results/test-results.json' }]
+  ],
 });
